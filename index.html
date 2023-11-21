@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     // types of functions
+        // named function
+    //     function func() {
+    //     for(i=0;i<=10;i++){
+    //         if(i%2==0){
+    //             return "even"
+    //         }
+    //         else{
+    //             return "odd"
+    //         }
+    //     }
+    // }
+    // console.log(func(2));
+
+    //arrow function
+    // var func=()=> {
+    //     for(i=0;i<=10;i++){
+    //         if(i%2==0){
+    //             return "even"
+    //         }
+    //         else{
+    //             return "odd"
+    //         }
+    //     }
+    // }
+    // console.log(func(3));
+
+    //anonymous function
+    // var func=function () {
+    //     for(i=0;i<=10;i++){
+    //         if(i%2==0){
+    //             return "even"
+    //         }
+    //         else{
+    //             return "odd"
+    //         }
+    //     }
+    // }
+    // console.log(func(2));
+
+    //immediately invoked
+
+    //     (function () {
+        
+    //     for(i=0;i<=10;i++){
+    //         if(i%2==0){
+    //             console.log("even");
+    //         }
+    //         else{
+    //             console.log("odd");
+    //         }
+    //     }
+    // })();
+
+    //arrow function
+
+    // var func=(a,b,c)=>{
+        
+    //   switch (true) {
+    //       case a>b && a>c:
+    //           return "a is greater";
+              
+    //       case b>a && b>c:
+    //           return "b is greater";
+              
+    //       default:
+    //           return "c is greater";
+    //   }
+    // }
+    // console.log(func(12,16,44));
+
+    //anonymous function
+    // var func= function(a,b,c){
+    //   switch (true) {
+    //       case a>b && a>c:
+    //           return "a is greater";
+              
+    //       case b>a && b>c:
+    //           return "b is greater";
+              
+    //       default:
+    //           return "c is greater";
+    //   }
+    // }
+    // console.log(func(12,16,24));
+
+    //immediate invoke function
+
+    // (function(a,b,c){
+    //   switch (true) {
+    //       case a>b && a>c:
+    //           console.log ("a is greater");
+              
+    //       case b>a && b>c:
+    //           console.log ("b is greater");
+              
+    //       default:
+    //           console.log ("c is greater");
+    //   }
+    // })(10,15,20);
+
+    //write a program to print months with their respective numbers using functions
+
+    // arrow function
+    //   var func=(month)=> {        
+    //       if(month==1){
+    //           return "january"
+    //       }
+    //       else if(month==2){
+    //           return "february"
+    //       }
+    //       else if(month==3){
+    //           return "march"
+    //       }
+    //       else if(month==4){
+    //           return "april"
+    //       }
+    //       else if(month==5){
+    //           return "may"
+    //       }
+    //       else if(month==6){
+    //           return "june"
+    //       }
+    //       else if(month==7){
+    //           return "july"
+    //       }
+    //       else if(month==8){
+    //           return "august"
+
+    //       }
+    //       else if(month==9){
+    //           return "september"
+    //       }
+    //       else if(month==10){
+    //           return "october"
+    //       }
+    //       else if(month==11){
+    //           return "november"
+    //       }
+    //       else if(month==12){
+    //           return "december"
+    //       }
+    //       else{
+    //           return "month exceeds"
+    //       }
+    //   }
+    //     console.log(func(1));
+
+
+    //anonymous function
+    //   var func=function(month) {        
+    //       if(month==1){
+    //           return "january"
+    //       }
+    //       else if(month==2){
+    //           return "february"
+    //       }
+    //       else if(month==3){
+    //           return "march"
+    //       }
+    //       else if(month==4){
+    //           return "april"
+    //       }
+    //       else if(month==5){
+    //           return "may"
+    //       }
+    //       else if(month==6){
+    //           return "june"
+    //       }
+    //       else if(month==7){
+    //           return "july"
+    //       }
+    //       else if(month==8){
+    //           return "august"
+
+    //       }
+    //       else if(month==9){
+    //           return "september"
+    //       }
+    //       else if(month==10){
+    //           return "october"
+    //       }
+    //       else if(month==11){
+    //           return "november"
+    //       }
+    //       else if(month==12){
+    //           return "december"
+    //       }
+    //       else{
+    //           return "month exceeds"
+    //       }
+    //   }
+    //       console.log(func(10));
+
+
+          //immediate invoke function
+
+          
+      (function (month) {        
+          if(month==1){
+              console.log( "january");
+          }
+          else if(month==2){
+              console.log("february"); 
+          }
+          else if(month==3){
+              console.log("march"); 
+          }
+          else if(month==4){
+              console.log("april");
+          }
+          else if(month==5){
+              console.log("may");
+          }
+          else if(month==6){
+              console.log("june"); 
+          }
+          else if(month==7){
+              console.log("july"); 
+          }
+          else if(month==8){
+              console.log("august"); 
+
+          }
+          else if(month==9){
+              console.log("september"); 
+          }
+          else if(month==10){
+              console.log("october"); 
+          }
+          else if(month==11){
+              console.log("november");
+          }
+          else if(month==12){
+              console.log("december"); 
+          }
+          else{
+              console.log("month exceeds"); 
+          }
+      })(13);
+      
+
+
+
+    
+    
+
+
+    
+
+
+    
+    
+
+    
+    
+
+    </script>
+</body>
+</html>
